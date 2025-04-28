@@ -37,31 +37,23 @@
   }
 ?>
 <div class="register-form">
-  <h2 class="text-center mb-4">Create Account</h2>
+  <h2 class="text-center mb-4">Login Acount</h2>
   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
     <div class="row">
         
-        <div class="mb-3 col-md-6">
-            <label for="name" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="name" name="full_name" required>
-        </div>
-        <div class="mb-3 col-md-6">
+        
+        <div class="mb-3 col-md-6 offset-md-3 col-12">
             <label for="email" class="form-label">Email address</label>
             <input type="email" class="form-control" id="email" name="email" required>
         </div>
-        <div class="mb-3 col-md-6">
-            <label for="username" class="form-label">Username</label>
-            <input type="text" class="form-control" id="username" name="username" required>
-        </div>
-        <div class="mb-3 col-md-6">
+       
+        <div class="mb-3 col-md-6  offset-md-3 col-12">
             <label for="password" class="form-label">Password</label>
             <input type="password" class="form-control" id="password" name="password" required>
         </div>
-        <div class="mb-3 col-md-6">
-            <label for="confirm-password" class="form-label">Confirm Password</label>
-            <input type="password" class="form-control" id="confirm-password" name="confirm_password" required>
+        <div class="mb-3 col-md-6  offset-md-3 col-12">
+            <button type="submit" class=" w-100 tm-btn tm-btn-primary">Login</button>
         </div>
-        <button type="submit" class=" w-100 tm-btn tm-btn-primary">Register</button>
 
     </div>
     

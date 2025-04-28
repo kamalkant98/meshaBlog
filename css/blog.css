@@ -435,6 +435,28 @@ footer{
     text-align: center;
 }
 
+
+.register-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 100%;
+    /* max-width: 400px; */
+  }
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #6c63ff;
+  }
+  .btn-primary {
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+  }
+  .btn-primary:hover {
+    background-color: #5a54d1;
+    border-color: #5a54d1;
+  }
+  
 @media (max-width: 1540px) {
     .tm-header { width: 320px; }
 

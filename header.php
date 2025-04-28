@@ -7,8 +7,10 @@
 	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/blog.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
 
+    <link href="css/blog.css" rel="stylesheet">
+    
 </head>
 <body>
 	<header class="tm-header" id="tm-header">
@@ -42,7 +44,7 @@
                         <i class="far fa-comments"></i>
                         Contact Us
                     </a></li>
-                    <li class="tm-nav-item"><a href="contact.html" class="tm-nav-link">
+                    <li class="tm-nav-item"><a href="login.php" class="tm-nav-link">
                         <i class="far fa-comments"></i>
                         Login
                     </a></li>
