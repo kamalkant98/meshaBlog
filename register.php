@@ -4,7 +4,7 @@
 <div class="container-fluid">
 <main class="tm-main">
 <?php
-    require_once("config.php");
+    
     require_once("header.php");
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       // Get form data safely
@@ -29,6 +29,7 @@
   
           if ($insertResult) {
               $_SESSION['success'] = "Registration successful!";
+              header("Location: login.php");
               
           } else {
               $_SESSION['error'] = "Error: " . pg_last_error($conn);
@@ -67,7 +68,7 @@
     
   </form>
   <p class="text-center mt-3">
-    Already have an account? <a href="/login">Login</a>
+    Already have an account? <a href="login.php">Login</a>
   </p>
 </div>
 </main>

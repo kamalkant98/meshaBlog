@@ -1,9 +1,10 @@
-<?php
-    require_once("header.php");
-?>
+
 
 <div class="container-fluid">
         <main class="tm-main">
+        <?php
+        require_once("header.php");
+        ?>
             <!-- Search form -->
             <div class="row tm-row">
                 <div class="col-12">
